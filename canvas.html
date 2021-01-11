@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>PAINT | PAINT98</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
+</head>
+
+<body>
+    <header>
+        <h1><span class="h-span">Paint</span>98</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="canvas.html">PAINT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <article class="can-title">
+            <span>mypaint - Paint</span>
+            <span class="btn">
+                <img class="btn-win" src="img/ico_min.png" alt="Minimizar" title="Minimizar">
+                <img class="btn-win" src="img/ico_max.png" alt="Maximizar" title="Maximizar">
+                <img class="btn-win" src="img/ico_cross.png" alt="Cerrar" title="Cerrar">
+            </span>
+        </article>
+        <section class="canv-content">
+            <canvas id="area" width="730" height="550"></canvas>
+            <article class="canv-color">
+                <p id="color"></p>
+                <p id="black"></p>
+                <p id="silver"></p>
+                <p id="grey"></p>
+                <p id="maroon"></p>
+                <p id="red"></p>
+                <p id="olive"></p>
+                <p id="green"></p>
+                <p id="teal"></p>
+                <p id="lime"></p>
+                <p id="yellow"></p>
+                <p id="navy"></p>
+                <p id="blue"></p>
+                <p id="aqua"></p>
+                <p id="purple"></p>
+                <p id="fuchsia"></p>
+            </article>
+        </section>
+        <aside>
+            <article>
+                <img id="line" class="boton" src="img/ico_lin.png" alt="Linea" title="Linea">
+                <img id="square" class="boton" src="img/ico_rect.png" alt="Rectangulo" title="Rectangulo">
+                <img id="circle" class="boton" src="img/ico_circulo.png" alt="Circulo" title="Circulo">
+                <img id="triangle" class="boton" src="img/ico_trian.png" alt="Triangulo" title="Triangulo">
+                <img id="rombo" class="boton" src="img/ico_rombo.png" alt="Rombo" title="Rombo">
+                <img id="fill" class="boton" src="img/ico_fill.png" alt="Rellenar" title="Rellenar">
+                <img id="clear" class="boton" src="img/ico_goma.png" alt="Borrar" title="Borrar">
+                <img id="rright" class="boton" src="img/ico_rright.png" alt="Rotar derecha" title="Rotar derecha">
+                <img id="rleft" class="boton" src="img/ico_rleft.png" alt="Rotar izquierda" title="Rotar izquierda">
+                <img id="reset" class="boton" src="img/ico_stopRot.png" alt="Parar rotacion" title="Parar rotacion">
+                <img id="big" class="boton" src="img/ico_scale.png" alt="Escalar" title="Escalar">
+                <img id="copia" class="boton" src="img/ico_copy.png" alt="Copiar" title="Copiar">
+                <img id="negative" class="boton" src="img/ico_inv.png" alt="Negativo" title="Negativo">
+                <img id="byn" class="boton" src="img/ico_bn.png" alt="Blanco y negro" title="Blanco y negro">
+                <img id="sep" class="boton" src="img/ico_sep.png" alt="Sepia" title="Sepia">
+                <a id="download" download="mypaint.png" href="#"><img class="boton" src="img/ico_save.png"
+                        alt="Descargar" title="Descargar"></a><br>
+                <select id="width" name="width">
+                    <option value="1">Grosor 1</option>
+                    <option value="5">Grosor 5</option>
+                    <option value="10">Grosor 10</option>
+                </select><br>
+                <select id="dash" name="dash">
+                    <option value="1">_______</option>
+                    <option value="2">----------</option>
+                    <option value="3">--·--·--·-</option>
+                </select><br>
+                <img id="text" class="boton" src="img/ico_texto.png" alt="Escribir texto" title="Escribir texto">
+                <form>
+                    <span class="inp-txt">Tamaño:</span><br><input type="text" id="tamano"><br>
+                    <span class="inp-txt">Fuente:</span><br>
+                    <select id="fuente" name="fuente">
+                        <option value="Arial">Arial</option>
+                        <option value="Comic Sans MS">Comic Sans</option>
+                    </select>
+                    <br>
+                    <span class="inp-txt">Rotacion(º):</span><br><input type="text" id="rot" value="0"><br>
+                    <span class="inp-txt">Texto:</span><br><input type="text" id="texto"><br>
+                    <article>
+                        <span class="inp-txt">Patrones</span><br>
+                        <img id="ptr01" src="img/patron01.png" alt="">
+                        <img id="ptr02" src="img/patron02.png" alt="">
+                        <img id="ptr03" src="img/patron03.png" alt="">
+                    </article>
+                </form>
+            </article>
+        </aside>
+    </section>
+    <footer>
+        <p>&copy; 2019 <span class="h-span">Paint</span>98 - DAW2. Autores: Victor Lucas & Marcos Abaurrea.</p>
+        <p>Hecho en HTML5 con amor.</p>
+    </footer>
+    <script src="js/paint.js"></script>
+</body>
+
+</html>

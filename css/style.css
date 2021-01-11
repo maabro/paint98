@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 60%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serifS;
+}
+
+header {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    float: left;
+    padding: 10px;
+    letter-spacing: -0.1em;
+    color: #333;
+}
+.h-span {
+    color: #01007a;
+}
+
+header nav {
+    float: right;
+    margin: 25px 0 0 0;
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 1em;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.container {
+    border: 1px solid black;
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    background-color: #F5F5F5;
+}
+
+.can-title {
+    background-color: #01007a;
+    padding: 0.4em;
+}
+
+.can-title span {
+    color: white;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding-left: 1em;
+}
+.can-title .btn {
+    padding-left: 83%;
+}
+.can-title .btn-win {
+    width: 15px;
+    height: 15px;
+}
+
+.canv-content {
+    width: 80%;
+    float: right;
+    padding: 10px;
+}
+.canv-color {
+    padding: 0.5em 0.5em 0 0.5em;
+}
+
+aside {
+    width: 15%;
+    float: left;
+    padding: 10px 0 10px 15px;
+}
+input {
+    width: 100px;
+}
+.inp-txt {
+    font-size: 0.75em;
+    font-weight: bold;
+}
+#width {
+    margin: 5px 0 0 0;
+}
+#dash {
+    margin: 5px 0 0 0;
+}
+#text {
+    padding: 10px 0 0 0;
+}
+
+#area {
+    border: 1px solid grey;
+    background-color: white;
+}
+
+#video {
+    width: 100%;
+    border: 1px solid #333;
+}
+#panel {
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+.controls {
+    font-size: 1.5em;
+    color: #01007a;
+    padding: 8px;
+}
+
+.boton {
+    width: 35px;
+}
+
+select {
+    width: 100px;
+}
+footer {
+    margin: 20px 0 0 0;
+}
+footer p {
+    font-size: 0.7em;
+    padding: 5px;
+    text-align: center;
+}
+
+#color, #red, #green, #blue, #aqua, #yellow, #grey, #teal, #silver, #navy, #olive, #lime, #maroon, #purple, #fuchsia, #black  {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+#ptr01, #ptr02, #ptr03 {
+    width: 40px;
+    height: 40px;
+}
+#color {
+    border: 0.5 grey solid;
+}
+#maroon {
+    background-color: maroon;
+}
+#red {
+    background-color: red;
+}
+#green {
+    background-color: green;
+}
+#blue {
+    background-color: blue;
+}
+#aqua {
+    background-color: aqua;
+}
+#yellow {
+    background-color: yellow;
+}
+#grey {
+    background-color: grey;
+}
+#teal {
+    background-color: teal;
+}
+#silver {
+    background-color: silver;
+}
+#navy {
+    background-color: navy;
+}
+#olive {
+    background-color: olive;
+}
+#lime {
+    background-color: lime;
+}
+#purple {
+    background-color: purple;
+}
+#fuchsia {
+    background-color: fuchsia;
+}
+#black {
+    background-color: black;
+}
